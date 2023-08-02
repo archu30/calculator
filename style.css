@@ -1,0 +1,92 @@
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.main-container{
+     margin-top: 0px;
+     margin-bottom: 0px;
+    height: 100%;
+    width: 50%;
+    background-color: aliceblue;
+    margin-left: 374px;
+}
+
+ 
+.cal{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 150px;
+    margin-right: 150px;
+    
+}
+
+/* @media only screen and (max-width: 1000px) {
+    .cal {
+        width: 100%;
+        display: block;
+        margin: 0;
+    }
+} */
+/* heading tag  */
+
+h1{
+    color: black;
+}
+
+.text-center{
+     
+    text-align: center;
+}
+
+.bg-red{
+    
+    padding: 2vw;
+    /* background-color: black; */
+}
+/* container */
+
+.mx-auto{
+    margin: auto;
+}
+.flex{
+  display: flex;
+} 
+
+.flex-col{
+    flex-direction: column;
+}
+
+.items-center{
+    align-items: center;
+}
+
+/* button */
+.button{
+    width:52px;
+    padding: 20px;
+    margin: 0 3px;
+    border :2px 0 black;
+    border-radius: 9px;
+    cursor: pointer;
+}
+ 
+.row{
+     margin: 3px 0;
+}
+.row input{
+   
+ margin: 2px;
+ padding:15px 38px;
+ border: 2px solid black;
+ border-radius: 6px;
+}
+.flex input{
+    display: flex;
+} 
+ .flex-col input{
+    flex-direction: column;
+} 
+.items-center input{
+    align-items: center;
+}
